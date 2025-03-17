@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assign</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My Random Website</title>
+        <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+        <style>
+            /* Inline CSS for quick demonstration */
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                background-color: #fffbfb;
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                background: #ca0f0f;
+                color: white;
+                padding: 10px 0;
+                text-align: center;
+            }
+            footer {
+                background: #d11313;
+                color: white;
+                padding: 5px 0;
+                text-align: center;
+                position: fixed;
+                width: 100%;
+                bottom: 0;
+            }
+            .container {
+                width: 80%;
+                margin: auto;
+                overflow: hidden;
+                background-color: rgb(237, 241, 241);
+            }
+            nav ul {
+                padding: 0;
+                list-style: none;
+            }
+            nav ul li {
+                display: inline;
+                margin-right: 10px;
+            }
+            .content {
+                margin: 20px 0;
+            }
+            .card {
+                background: white;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                margin: 10px;
+                border-radius: 8px;
+            }
+            .card img {
+                width: 20%;
+                height: auto;
+                border-radius: 8px;
+               
+            }
+        
+        </style>
+        <style>
+            .content {
+                float: left;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <!-- Header Section -->
+        <header>
+            <h1>Welcome to My Random Website</h1>
+            <p>"Success is the sum of small efforts, repeated day in and day out."</p>
+        </header>
+    
+        <!-- Navigation Bar -->
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    
+        <!-- Main Content Section -->
+        <div class="container">
+            <section class="content">
+                <h2>About This Site</h2>
+                <p>This website is an example show various HTML elements. It contains images, forms, tables, and links.</p>
+                <hr>
+            </section>
+    
+            <!-- Cards Section (Image and text cards) -->
+            <section class="content">
+                <h2>Our Popular Categories</h2>
+    
+                <div class="card">
+                    <img src="butter.webp"  height="250px" width="250px">
+                    <h3>Category 1</h3>
+                    <p>This is a random category with an image and description.</p>
+                    <button onclick="alert('You clicked Category 1!')">Learn More</button>
+                </div>
+    
+                <div class="card">
+                    <img src="fly.jfif" alt="Category 2">
+                    <h3>Category 2</h3>
+                    <p>This category is also a great nature of Allah</p>
+                    <button onclick="alert('You clicked Category 2!')">Explore</button>
+                </div>
+    
+            </section>
+    
+            <!-- Form Section -->
+            <section class="content">
+                <h2>Contact Us</h2>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+    
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Your Message..."></textarea><br><br>
+    
+                    <input type="submit" value="Send Message">
+                </form>
+            </section>
+    
+            <!-- Table Section -->
+            <section class="content">
+                <h2>Natures Creatures</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Insects</th>
+                            <th>Animal</th>
+                            <th>Birds</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Butterfly</td>
+                            <td>Lion</td>
+                            <td>Pigion</td>
+                        </tr>
+                        <tr>
+                            <td>Lady Bird</td>
+                            <td>Tiger</td>
+                            <td>Parrot</td>
+                        </tr>
+                        <tr>
+                            <td>Catterpiller</td>
+                            <td>Panda</td>
+                            <td>Eagle</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+    
+            <!-- Image and Multimedia Section -->
+            <section class="content">
+                <h2>Check Out the natures Cool Video</h2>
+                <video width="600" controls>
+                    <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4" >
+                    Your browser does not support the video tag.
+                </video>
+    
+                <h2>Gallery</h2>
+                <img src="butter.webp" alt="Image 1" style="width:300px;height:300px;" >
+                <img src="fly.jfif" alt="Image 2"  style="width:300px;height:300px;" >
+                <img src="duck.png" alt="Image 3" style="width:300px;height:300px;">
+            </section>
+        </div>
+    
+        <!-- Footer Section -->
+        <footer>
+            <p> 2025 My Random Website. All Rights Reserved.</p>
+            <p><a href="https://www.w3schools.com/">Email Us</a> | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+      
+    </body>
+    </html>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+</body>
+</html>
