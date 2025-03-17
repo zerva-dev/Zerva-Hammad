@@ -1,0 +1,21 @@
+div{
+
+    height: 100px;
+    width: 100px ;
+    border: 10px solid ;
+    margin: 40px ;
+    color: rgb(185, 48, 179);
+float: left;
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: brown;
+}
+.box3{
+    background-color: black;
+}
+.box4{
+    background-color: yellowgreen;
+}
