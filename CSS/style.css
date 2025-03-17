@@ -1,20 +1,21 @@
 div{
 
-    height: 100px;
-    width: 100px ;
+    height: 200px;
+    width: 200px ;
     border: 10px solid ;
     margin: 40px ;
-    color: rgb(185, 48, 179);
+    color: rgb(26, 23, 25);
 float: left;
 }
 .box1{
-    background-color: blue;
+    background-color: rgb(238, 179, 16);
 }
 .box2{
     background-color: brown;
+    float: left;
 }
 .box3{
-    background-color: black;
+    background-color: rgb(16, 107, 211);
 }
 .box4{
     background-color: yellowgreen;
