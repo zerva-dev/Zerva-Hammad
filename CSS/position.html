@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        .main {
+            width: 80%;
+            height: 900px;
+            background-color: blueviolet;
+            padding: 20px;
+            position: relative;
+            margin: auto;
+        }
+
+        .box {
+            width: 100%;
+            height: 100px;
+            margin-top: 10px;
+            border: 2px solid black;
+
+        }
+
+        #boxs1 {
+            background-color: blue;
+            position: sticky;
+            top: 20px;
+        }
+
+        #boxs2 {
+            background-color: aqua;
+         
+          
+        }
+
+        #boxs3 {
+            background-color: rgb(255, 8, 8);
+          
+        }
+        #boxs4 {
+            background-color: rgb(206, 248, 16);
+        }
+        img {
+  position: relative;
+ 
+  z-index: -1;
+}
+      
+
+       
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="box" id="boxs1"></div>
+        <div class="box" id="boxs2"></div>
+        <div class="box" id="boxs3"></div>
+        <div class="box" id="boxs4">
+            <h1>This is a heading</h1>
+            <img src="./duck.png" height="50px" width="50px">
+            <p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+        
+        </div>
+    </div>
+   
+   
+</body>
+
+</html>

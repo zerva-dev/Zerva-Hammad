@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+
+
+    <style>
+    .main{
+        width: 400px;
+        background-color: rgb(236, 134, 37);
+        display: flex;
+        border: 2px solid black;
+        height: 500px;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+       flex-wrap:  wrap;
+       
+      
+    }
+
+    .box1, .box2, .box3, .box4, .box5{
+        height: 80px;
+        width:150px ;
+        background-color: rgb(243, 9, 98);
+        border: 1px solid rgb(14, 13, 13);
+    }
+
+
+
+    .box2, .box4{
+        background-color: goldenrod;
+    }
+
+
+
+
+
+
+/* 
+    .flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container>div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+ */
+
+
+
+  
+    
+    
+    
+   </style>
+</head>
+<body>
+     <div class="main">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+        <div class="box4">box4</div>
+        <div class="box5">box5</div>
+    </div> 
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>  
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>  
+      </div> -->
+</body>
+</html>

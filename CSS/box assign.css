@@ -8,7 +8,7 @@
 .container {
     /* min-height: 100vh; */
     width: 70%;
-    background-color: rgba(170, 102, 140, 0.315);
+    background-color: rgba(245, 248, 32, 0.315);
     margin: auto;
 }
 
@@ -66,7 +66,7 @@ header {
 }
 
 #sec_bottom {
-     background-color: rgb(130, 187, 187);
+     background-color: rgb(132, 224, 240);
     margin: 15px;
     height: 250px;
     padding-top: 110px;
