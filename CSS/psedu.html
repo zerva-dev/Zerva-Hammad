@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psedu classes</title>
+    <style>
+        /* .nav_link:nth-child(2n+1){   imp
+            color: rgb(233, 9, 9);
+        }
+        .navs_link:first-child{    imp
+            color: rgb(95, 9, 233);
+        }
+        .navss_link:last-child{   imp
+            color: rgb(141, 236, 17);
+        }
+        .navsss_link:nth-last-child(2n){
+            color: brown;
+
+        } */
+         /* li:nth-last-of-type(2n+1){
+            background-color: brown;
+            color: white;
+         } */
+          /* li:nth-of-type(4){
+            background-color: purple;
+            color: white;
+          } */
+/* li:only-child{                      imp
+background-color: goldenrod;
+
+color: white;
+} */
+ /* p:only-of-type{
+    background-color: aqua;
+    color: blue;
+ }
+ h1:last-of-type{
+    color:purple
+ }
+li:empty{
+    background-color: rgb(253, 13, 13);
+    color: rgb(219, 38, 38);
+    border: 2px solid black;
+}
+li:not(.navs_link ){
+    color: rgb(0, 233, 39);
+    border: 2px solid black;
+    background-color: rgb(218, 47, 104);
+
+} */
+
+
+:is(.para1, .para2) h1{
+    color: purple;
+}
+h1:hover{
+    background-color: rgb(129, 129, 43);
+    color: rgb(223, 43, 73);
+    transition: all ease-in-out;
+}
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="nav_link"></li>
+        <li class="nav_link"> Item no 2</li>
+        <li class="nav_link"> Item no 3 </li>
+        <li class="nav_link "> Item no 4</li>
+        <li class="nav_link"> Item no 5</li>
+        <li class="nav_link"> Item no 6 </li>
+        <li class="nav_link "> Item no 7</li>
+        <li class="nav_link"> Item no 8</li>
+    </ul>
+    <ol>
+        <li class="navs_link"> Item no 1</li>
+        <li class="navs_link"> Item no 2</li>
+        <li class="navs_link"> Item no 3</li>
+        <li class="navs_link"> Item no 4</li>
+        <li class="navs_link"> Item no 5</li>
+        <li class="navs_link"></li>                     
+        <li class="navs_link"> Item no 7</li>
+        <li class="navs_link"> Item no 8</li>
+    </ol>
+
+    <!-- <ul>
+        <li class="navss_link"> Item no 1</li>
+        <li class="navss_link"> Item no 2</li>
+        <li class="navss_link"> Item no 3</li>
+        <li class="navss_link"> Item no 4</li>
+        <li class="navss_link"> Item no 5</li>
+        <li class="navss_link"> Item no 6</li>
+        <li class="navss_link"> Item no 7</li>
+        <li class="navss_link"> Item no 8</li>
+    </ul>
+
+    <ol>
+        <li class="navsss_link"> Item no 1</li>
+        <li class="navsss_link"> Item no 2</li>
+        <li class="navsss_link"> Item no 3</li>
+        <li class="navsss_link"> Item no 4</li>
+        <li class="navsss_link"> Item no 5</li>
+        <li class="navsss_link"> Item no 6</li>
+        <li class="navsss_link"> Item no 7</li>
+        <li class="navsss_link"> Item no 8</li>
+    </ol> -->
+
+<div>
+    <li class="nav_link">no parent</li>
+    <p>this is it</p>
+</div>
+
+<div>
+    <li class="nav_link">no parent</li>
+    <p>this is it</p>
+</div>
+
+
+<div>
+    <li class="nav_link">no parent</li>
+    <p>this is it</p>
+</div>
+
+<h1 class="nav_link">I have done</h1>
+
+<div class="para1">
+    <h1>Paragraph </h1>
+</div>
+<div class="para2">
+    <h1>Paragraph 2</h1>
+</div>
+</body>
+</html>
