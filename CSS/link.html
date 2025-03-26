@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        a{
+            text-decoration:none ;
+            color: rgb(212, 16, 16);
+            display: block;
+            font-weight: bold;
+        }
+        .link1:link{
+            color: rgb(0, 255, 0);
+        }
+
+        .link2:active{
+            color: purple;
+            font-size:24px ;
+
+        }
+        .link1:visited{
+            color: greenyellow;
+        }
+        #para:target{
+background-color: brown;
+color: white;
+
+        }
+        #para1:target{
+background-color: rgb(158, 80, 116);
+color: white;
+
+        }
+        input:focus{
+            background-color: yellow;
+            border: none !important;
+        }
+
+        input:disabled{
+            background-color: palevioletred;
+            color: white;
+            text-decoration: none;
+
+        }
+
+        input:checked + label{
+            color: palegreen;
+        }
+
+input[type="text"]{
+    background-color: green;
+}
+
+input[type="number"]{
+    border-radius: 10px;
+    border: 1px solid peru;
+}
+
+input[disabled]{
+    background-color: rgb(13, 3, 58);
+    color: white;
+    border: none;
+    cursor: not-allowed;
+
+}
+a[href^="#"]{
+    text-decoration: underline;
+    color: chocolate;
+}
+a[href$="para"]{
+    text-decoration: underline;
+    color: rgb(154, 96, 161);
+    cursor: pointer;
+}
+/* a[href*="para"]{
+    text-decoration: underline;
+    color: rgb(154, 96, 161);
+    cursor: pointer;
+} */
+
+    </style>
+</head>
+<body>
+   <a href="https://www.w3schools.com/" class="link1">click 1</a> 
+   <a href="#para" class="link2">click 2</a> 
+   <a href="#para1" class="link3">click 3</a> 
+   <a href="#para2" class="link4">click 4</a> 
+
+   <p id="para">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis expedita rerum consequatur facere quam asperiores repellendus laborum labore perferendis sequi officiis sed, nostrum iste placeat ullam reprehenderit nulla alias temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci ipsam reiciendis optio doloremque illum error. Quasi nemo perferendis porro veniam labore maxime dolore voluptate exercitationem ipsam aspernatur, distinctio dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nam ut odit, incidunt maxime reiciendis? Tempore, iste ad exercitationem eaque nobis, laudantium unde odit quia harum optio, inventore atque adipisci.</p>
+    <p id="para1"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi praesentium dolorem illo, vel provident possimus eum repellat temporibus autem voluptatem animi ipsum saepe itaque tenetur. Magni laboriosam inventore nam quibusdam?</p>
+    <form action="">
+        <input type="number">
+        <input type="text">
+        <input type="text" value="any name" disabled>
+        <input type="checkbox" >
+    </form>
+    <label for="name">username</label>
+    <input type="text" id="username">
+   
+</body>
+</html>

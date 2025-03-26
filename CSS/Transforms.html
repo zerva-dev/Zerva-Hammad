@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforms</title>
+    <style>
+        .data{
+            width: 200px;
+            height: 200px;
+            background-color: plum;
+            transform: translateX(-50px ,100px);
+            /* transform: scale(18.8); */
+            /* transform: rotate(65deg); */
+           /* transform: rotateX(30deg); */
+           transition: transform 1s ease-in-out;
+           margin: 80px;
+           /* transform: skew(30deg , 20deg); */
+           animation: tilt 2s linear infinite;
+           /* animation: tilt 2s linear backwards; */
+
+        }
+.data:hover{
+    transform: rotate(40deg);
+    /* transition: transform 1s ease-in-out; */
+}
+@keyframes tilt{
+    50%{
+        transform: translate(30px ,-80px);
+        animation: tilt 2s linear infinite;
+    }
+    100%{
+        transform: skew(30deg ,70deg);
+    }
+}
+
+
+
+.date{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(70, 233, 70);
+            transform: translateY(-70px ,60px);
+            /* transform: scale(18.8); */
+            /* transform: rotate(85deg); */
+           /* transform: rotateX(30deg); */
+           transition: transform 1s ease-out;
+           margin: 90px;
+           /* transform: skew(30deg , 20deg); */
+           animation: tilt 2s linear infinite;
+           /* animation: tilt 2s ease-in forwards; */
+           border-radius: 50px;
+
+        }
+.date:hover{
+    transform: rotate(40deg);
+    transition: transform 1s ease-in-out;
+}
+    </style>
+</head>
+<body>
+    <div class="data">
+
+    </div>
+
+    <div class="date">
+
+    </div>
+
+
+
+    
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main {
+            min-height: 100vh;
+            background-color: #616163;
+        }
+
+        .hero_sec {
+            width: 100%;
+            min-height: 400px;
+            display: flex;
+            background-color: #37517e;
+
+
+        }
+
+        .left {
+            width: 50%;
+            /* background-color: antiquewhite; */
+            padding: 60px 40px 0 40px;
+        }
+
+        .left_inner {
+            width: 80%;
+            height: auto;
+            margin: auto;
+            justify-content: center;
+            /* background-color: aquamarine; */
+            padding-top: 60px;
+        }
+       .left  p{
+            text-align: left;
+        }
+
+        .right {
+            width: 50%;
+            padding-top: 30px;
+        }
+
+        .right img {
+            /* margin: 70px; */
+            width: 85%;
+            animation: bounce 4s ease-in-out infinite alternate-reverse both;
+        }
+        @keyframes bounce{
+   
+   0%,100%{transform: translateY(0px);}
+   50%{transform: translateY(-10px);}
+
+}
+
+        .btns {
+            display: flex;
+            gap: 20px;
+
+        }
+
+        .btn1 button {
+            background-color: #44a3d5;
+            border-radius: 100px;
+            padding: 10px 30px;
+            border: none;
+        }
+
+        .left {
+            width: 50%;
+        }
+      
+
+.Box {
+            background-color: #F5F6F8;
+            height: 70px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .Box img {
+            width: 100px;
+            animation: bounce 4s ease-in-out infinite alternate-reverse both;
+        }   
+
+
+    </style>
+</head>
+<body>
+    <main>
+
+        <div class="hero_sec">
+            <div class="left">
+                <div class="left_inner">
+                    <h1>
+                        Better Solutions For <br> Your Business
+                    </h1> <br>
+                    <p>We are team of talented designers making <br> websites with Bootstrap</p>
+                    <br>
+                    <div class="btns">
+                        <div class="btn1">
+                            <button>Get Started</button>
+                        </div>
+                        <div class="btn1">
+                            <button>Sign In</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <img src="https://bootstrapmade.com/content/demo/Arsha/assets/img/hero-img.png" alt="">
+            </div>
+
+        </div>
+        <div class="Box">
+            <div> <img src="	https://bootstrapmade.com/content/demo/Arsha/assets/img/clients/clients-2.webp"></div>
+            <div><img src="https://bootstrapmade.com/content/demo/Arsha/assets/img/clients/clients-1.webp" alt=""></div>
+            <div> <img src="https://bootstrapmade.com/content/demo/Arsha/assets/img/clients/clients-4.webp" alt="">
+            </div>
+            <div><img src="https://bootstrapmade.com/content/demo/Arsha/assets/img/clients/clients-8.webp" alt=""></div>
+            <div><img src="https://bootstrapmade.com/content/demo/Arsha/assets/img/clients/clients-8.webp" alt=""></div>
+            <div><img src="https://bootstrapmade.com/content/demo/Arsha/assets/img/clients/clients-8.webp" alt=""></div>
+        </div>
+</main>   
+</body>
+</html>

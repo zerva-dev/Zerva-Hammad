@@ -4,9 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    
     <title>First Website Demo</title>
     <link rel="stylesheet" href="/Firstweb.css">
 
+
+
+
+   
     <style>
         * {
             margin: 0;
@@ -26,14 +32,15 @@
             justify-content: space-evenly;
             align-items: center;
             color: white;
-            position: sticky;
          
         }
 
         .menu {
             width: 30%;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
+            gap: 10px;
+            
         }
 
         .menu a {
@@ -43,11 +50,11 @@
             width: 50%;
         }
 
-        .Dropdown {
+        /* .Dropdown {
             color: white;
             background-color: #37517e;
 
-        }
+        } */
       
 
         .logo {
@@ -57,9 +64,10 @@
 
         .btn {
             /* background-color: aqua; */
-            width: 40%;
+            width: 20%;
             display: flex;
             justify-content: space-around;
+            gap: 20px;
         }
 
         .btn button {
@@ -67,8 +75,11 @@
             border-radius: 30px;
             border: none;
             background-color: #44a3d5;
+            gap: 20px;
+            
         }
 
+        
         main {
             min-height: 100vh;
             background-color: #616163;
@@ -97,6 +108,9 @@
             /* background-color: aquamarine; */
             padding-top: 60px;
         }
+       .left  p{
+            text-align: left;
+        }
 
         .right {
             width: 50%;
@@ -106,7 +120,6 @@
         .right img {
             /* margin: 70px; */
             width: 85%;
-
         }
 
         .btns {
@@ -274,10 +287,163 @@
                             height: 100%;
                             width: 100%;
                             object-fit: cover;
-
                         }
+p{
+    text-align: center;
+}
+
+.sec-box{
+        width: 900px;
+        background-color: white;
+        display: flex;
+       padding-top: 3%;
+        height: 200px;
+        justify-content:space-between;
+        flex-direction: row;
+        /* align-items: center; */
+        gap: 30px;
+       /* flex-wrap:  wrap; */
+     
+       
+      
+    }
 
 
+       
+        .container {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 20px;
+            width: 97%;
+            height: 50%;
+        }
+
+        .block {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 8px;
+            width: 23%;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .block i {
+            font-size: 40px;
+            color: #4CAF50;
+            margin-bottom: 15px;
+        }
+
+        .block h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #11085f;
+        }
+
+        .block p {
+            font-size: 1em;
+            color: #0f0f0f;
+        }
+
+     
+        .container2 {
+            display: flex;
+            justify-content: space-around;
+           
+            /* flex-wrap: wrap; */
+            /* margin: 20px; */
+            width: 100%;
+            height: 80%;
+        }
+
+        .block1 {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 8px;
+            width: 30%;
+            text-align: left;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .block1 span{
+            background-color: #13b3f3;
+            color: white;
+            font-weight: bold;
+            font-size: x-large;
+            border-radius: 30px;
+            padding: 10px;
+
+        }
+
+        .block1 img {
+            font-size: 40px;
+            color: #e9f1e9;
+            margin-top: 10px;
+            padding-top: 30px;
+            overflow-clip-margin: content box;
+            overflow: clip;
+        }
+
+        .block1 h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #043863;
+        }
+
+        .block1 p {
+            font-size: 1em;
+            color: #464343;
+           padding: 5px;
+           text-align: center;
+        }
+        ul li{
+            color: #616163;
+          list-style: none;   
+        }
+        
+
+.sec3{
+    min-height: 250px;
+    width: 100%;
+    background-color: #4CAF50;
+    text-align: left;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 10px;
+    background-image: url(https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-attachment: fixed;
+    align-items: center;
+}
+.sec3_text{
+    padding: 45px;
+    color: white;
+}
+.sec3_text h1{
+    color: white;
+    text-align: left;
+}
+.sec3_text p{
+    color: white;
+    text-align: left;
+}
+.sec3_btn{
+    padding: 50px;
+}
+
+.sec3_btn button{
+    height: 30%;
+    color: wheat;
+    border-radius: 20px;
+    background: none;
+    border: 2px solid white;
+    outline: none;
+    margin-top: 20px;
+    
+}
+        
     </style>
 
 </head>
@@ -440,14 +606,14 @@
 
                         <div class="box1">
                             <p>01 Non consectetur a erat nam at lectus urna duis?
-                            </p><br>
-                        </div>
+                            </p>
+                        </div><br>
                         <div class="box2">
                             <p>02 Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</p>
                         </div><br>
                         <div class="box3">
-                            <p>03 Dolor sit amet consectetur adipiscing elit pellentesque?</p><br>
-                        </div>
+                            <p>03 Dolor sit amet consectetur adipiscing elit pellentesque?</p>
+                        </div><br>
 
                     </div>
 
@@ -456,9 +622,139 @@
                     <img src="./section.png"  alt="section">
                 </div>
             </div>
+          
+            <div class="Section">
+                    <h1>Services
+                        <hr>
+                    </h1>
+                  
+                   <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>  
+            </div>
+       
+         <div class="container">
+            <div class="block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#44a3d5" class="bi bi-activity" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2"/>
+                  </svg>
+                <h3>Loram Ipsum</h3>
+                <p>voluptatum deleniti atque corrupti ques dolores et quas molestias excepturi</p>
+            </div>
+            <div class="block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#44a3d5" class="bi bi-bounding-box-circles" viewBox="0 0 16 16">
+                    <path d="M2 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2M0 2a2 2 0 0 1 3.937-.5h8.126A2 2 0 1 1 14.5 3.937v8.126a2 2 0 1 1-2.437 2.437H3.937A2 2 0 1 1 1.5 12.063V3.937A2 2 0 0 1 0 2m2.5 1.937v8.126c.703.18 1.256.734 1.437 1.437h8.126a2 2 0 0 1 1.437-1.437V3.937A2 2 0 0 1 12.063 2.5H3.937A2 2 0 0 1 2.5 3.937M14 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2M2 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m12 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+                  </svg>
+                <h3>Sed ut perspici</h3>
+                <p>Duis aute irure dollar in reprehenderit in voluptate velit essecillum dolore</p>
+            </div>
+            <div class="block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#44a3d5" class="bi bi-bounding-box-circles" viewBox="0 0 16 16">
+                    <path d="M2 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2M0 2a2 2 0 0 1 3.937-.5h8.126A2 2 0 1 1 14.5 3.937v8.126a2 2 0 1 1-2.437 2.437H3.937A2 2 0 1 1 1.5 12.063V3.937A2 2 0 0 1 0 2m2.5 1.937v8.126c.703.18 1.256.734 1.437 1.437h8.126a2 2 0 0 1 1.437-1.437V3.937A2 2 0 0 1 12.063 2.5H3.937A2 2 0 0 1 2.5 3.937M14 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2M2 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m12 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+                  </svg>
+                <h3>Magni Dolores</h3>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+            <div class="block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#44a3d5" class="bi bi-broadcast" viewBox="0 0 16 16">
+                    <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707m2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708m5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708m2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0"/>
+                  </svg>
+                <h3>Nemo Anim</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos dusimus qui blanditiss</p>
+            </div>
 
+
+            
         </div>
 
+
+        <div class="Section2">
+            <h1>WORK PROCESS
+                <hr>
+            </h1>
+          
+           <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> <br> 
+   
+
+    <div class="container2">
+        <div class="block1">
+           <img src="./steps-1.webp " height="300px" width="300px" alt=""><br>
+
+           <span>01</span><br> <br>
+            <h3>Research & Analysis</h3>
+            <p>voluptatum deleniti atque corrupti ques dolores et quas molestias excepturi</p><br>
+            <ul>
+                <li>Market Resarch</li><br>
+                <li>Data Analysis</li><br>
+                <li>User Feedback</li><br>
+            </ul>
+          
+        </div>
+        <div class="block1">
+            <img src="./steps-2.webp " height="300px" width="300px" alt=""><br>
+            <span>02</span><br> <br>
+            <h3>Design & Planning</h3>
+            <p>Duis aute irure dollar in reprehenderit in voluptate velit essecillum dolore</p><br>
+             <ul>
+                <li>Wire framing</li><br>
+                <li>UI/UX Design</li><br>
+                <li>Prototyping</li><br>
+            </ul>
+        </div>
+        <div class="block1">
+            <img src="./steps-3.webp " height="300px" width="300px" alt=""><br>
+            <span>03</span><br> <br>
+            <h3>Development & Launch</h3>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p><br>
+             <ul>
+                <li>Development</li><br>
+                <li>Testing</li><br>
+                <li>Deploymengt</li><br>
+            </ul>
+        </div>
+       
+      
+</div><br>
+
+
+
+<div class="sec3">
+    <div class="sec3_text">
+        <h1>Call To Action</h1><br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias mollitia delectus aperiam cupiditate voluptatem, odio neque corrupti,<br> sunt in minus autem fugit nulla tempore nihil ipsam saepe eum molestiae omnis!</p>
+    </div><br>
+    <div class="sec3_btn">
+        <button> Call To Action</button>
+    </div>
+</div>
+
+<div class="sec4">
+    <h1>PORTFOLIO <hr></h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p><br>
+
+    
+
+    <div class="menu_a">
+        <a href="">All</a>
+        <a href="">App</a>
+        <a href="">Card</a>
+        <a href="">Web</a>
+    </div>
+    <div class="sec4_img">
+        <div class="pic1">
+         
+        </div>
+        <div class="pic1">
+
+        </div>
+    </div>
+    <div class=""></div>
+</div>
+
+  
+
+  
+ 
+
+       
 
 
 
