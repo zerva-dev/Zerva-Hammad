@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- s= start and its for left side
+    e= end and its for right side
+    m= middle and its for center
+    b=bottom and its for bottom -->
+    <!-- t= top its for top -->
+    <!-- font size value range from 1 to 6 -->
+    <!-- text-center ,end ,start -->
+    <!-- bg =background color
+    change color primary= dark blue secondary=grey danger= red warning = yellow info = lightblue dark=black
+    success=green light= full light muted =dark grey white =white -->
+    <!-- d flex =flex -->
+    <!-- px= left or right padding
+     py= top and bottom padding -->
+    <!-- img fluid = set image according to parent
+    img- thummb nail= for color remove
+    for style= rounded circle
+    shadow =shadow image
+    button small= sm ===btn-sm
+    button large= lg
+    button medium= md
+    btn-outline-color
+    container =padding maximum
+    container-fluid =padding min -->
+    <!-- sm=>- 576-768
+    md=>-768-992
+    lg=>- 992-1200
+    xs=<-576
+    xl=>-1200-1400
+    xxl= >-1400 -->
+
+
+
+    <h1 class="h1 mt-5 px-5  bg-info">Heading</h1>
+    <p class="h3 fs-4 me-5 p-5 text-white bg-success">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque
+        excepturi blanditiis quam at cum animi, sequi
+        libero facere iure dolore saepe ex tempora aliquam necessitatibus est. Nesciunt laborum cumque accusamus!</p>
+
+
+    <style>
+        .main {
+            height: 700px;
+            width: 70%;
+            margin: auto;
+            /* padding: 80px; */
+        }
+
+        .div1,
+        .div2 {
+            height: 300px;
+            width: 300px;
+            /* background-color: blueviolet; */
+        }
+    </style>
+
+
+
+    <div class="main d-flex bg-primary justify-content-around align-items-center gap-2 flex-column flex-nowrap">
+        <div class="div1 bg-danger"></div>
+        <div class="div2 bg-danger"></div>
+
+    </div><br>
+
+    <div class=" h1 bg-warning h-50 p-2"> this is it</div>
+
+
+
+    <div class="w-100 bg-danger  ">
+        <div class="w-50 bg-success float-end ">
+            <img src="./building.webp" class="img-fluid img-thumbnail shadow rounded-circle" alt="">
+        </div>
+        <div class="w-50 bg-success  ">
+            <img src="./building.webp" class="img-fluid img-thumbnail shadow rounded-circle" alt="">
+        </div>
+    </div>
+
+
+
+    <button class="btn btn-info btn-lg ">button large</button>
+    <button class="btn btn-primary  btn-sm">button small</button>
+    <button class="btn btn-outline-danger btn-md">button medium</button>
+
+
+
+
+
+
+    <!-- container -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 bg-success">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur cum consequatur, quasi ipsum
+                recusandae culpa maiores amet aperiam eius magnam minima voluptates repellat, rerum quia nam perferendis
+                blanditiis, accusantium nesciunt.
+            </div>
+            <div class="col-4 bg-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam debitis, sed praesentium, hic ut
+                repellat error pariatur soluta recusandae at illum saepe eos ipsum perferendis explicabo impedit
+                cupiditate, dignissimos deleniti.
+            </div>
+            <div class="col-4 bg-warning">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium assumenda explicabo provident
+                itaque! Reprehenderit aliquam nulla laboriosam, laudantium cupiditate soluta? Eos harum sequi quae
+                delectus ullam earum veritatis? Necessitatibus, vitae?
+            </div>
+        </div>
+
+    </div><br>
+
+    <div class="container  ">
+        <div class="row text-dark bg-warning ">
+            <div class="col    ">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur cum consequatur, quasi ipsum
+                recusandae culpa maiores amet aperiam eius magnam minima voluptates repellat, rerum quia nam perferendis
+                blanditiis, accusantium nesciunt.
+            </div>
+            <div class="col ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam debitis, sed praesentium, hic ut
+                repellat error pariatur soluta recusandae at illum saepe eos ipsum perferendis explicabo impedit
+                cupiditate, dignissimos deleniti.
+            </div>
+            <div class="col ">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium assumenda explicabo provident
+                itaque! Reprehenderit aliquam nulla laboriosam, laudantium cupiditate soluta? Eos harum sequi quae
+                delectus ullam earum veritatis? Necessitatibus, vitae?
+            </div>
+            <div class="col ">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium assumenda explicabo provident
+                itaque! Reprehenderit aliquam nulla laboriosam, laudantium cupiditate soluta? Eos harum sequi quae
+                delectus ullam earum veritatis? Necessitatibus, vitae?
+            </div>
+        </div>
+
+    </div><br><br>
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6  col-sm-6 bg-danger"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
+                soluta quis optio quaerat voluptatem ad beatae corporis blanditiis repellat pariatur tenetur temporibus
+                similique dolorem voluptas aut laudantium, fugit magnam. Tempore!</div>
+            <div class="col-lg-3 col-md-6 col-sm-6 bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                assumenda nihil expedita minima. In assumenda optio placeat labore doloribus id, quaerat perferendis
+                sunt, minima nemo quasi veritatis vel provident vitae?</div>
+            <div class="col-lg-3 col-md-6  col-sm-6  col-xl-6 bg-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                facilis aut magnam amet aperiam aliquid tempore at, pariatur asperiores, tempora autem unde cumque fugit
+                saepe quae doloribus cupiditate odit ipsam.</div>
+            <div class="col-lg-3 col-md-6 col-sm-6 bg-success">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
+                repellendus. Hic dolor, quasi in numquam aut repellat atque. Quam voluptas veniam ipsa illo id culpa
+                delectus libero, dolores possimus voluptates!</div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

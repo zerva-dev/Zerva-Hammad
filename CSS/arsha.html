@@ -120,7 +120,14 @@
         .right img {
             /* margin: 70px; */
             width: 85%;
+            animation: bounce 4s ease-in-out infinite alternate-reverse both;
         }
+        @keyframes bounce{
+   
+   0%,100%{transform: translateY(0px);}
+   50%{transform: translateY(-10px);}
+
+}
 
         .btns {
             display: flex;
@@ -443,6 +450,106 @@ p{
     margin-top: 20px;
     
 }
+
+
+
+
+/* comment */
+.sec7 {
+    min-height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    justify-content: center;
+}
+
+.sec7 h1 {
+    text-align: center;
+    justify-content: center;
+    color: #37517e;
+    padding: 20px;
+}
+
+.sec7 p {
+    color: #444444;
+}
+
+.menu_b {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu_b a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu_b a:hover {
+    background-color: #44a3d5;
+    border: 2px none #44a3d5;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.sec7_img {
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+.pic1 {
+    width: 100%;
+    height: auto;
+    /* align-items:flex-end;
+    justify-content: left; */
+}
+
+.pic1 img {
+    width: 100%;
+    object-fit: cover;
+    /* flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; */
+}
+
+.pic2 {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.pic2 img {
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.pic3 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 10px;
+    /* justify-content: right;
+    align-items: end; */
+}
+
+.pic3 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
         
     </style>
 
@@ -726,28 +833,76 @@ p{
     </div>
 </div>
 
-<div class="sec4">
-    <h1>PORTFOLIO <hr></h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p><br>
 
-    
-
-    <div class="menu_a">
-        <a href="">All</a>
-        <a href="">App</a>
-        <a href="">Card</a>
-        <a href="">Web</a>
-    </div>
-    <div class="sec4_img">
-        <div class="pic1">
-         
-        </div>
-        <div class="pic1">
-
-        </div>
-    </div>
-    <div class=""></div>
+<!-- comment  -->
+<h1>PORTFOLIO
+    <hr>
+</h1>
+<p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p><br>
+<div class="menu_b">
+    <a href="#">All</a>
+    <a href="#">App</a>
+    <a href="#">Card</a>
+    <a href="#">Web</a>
 </div>
+<div class="sec7_img">
+
+    <div class="sec7_imga">
+        <div class="pic1">
+            <img
+                src="https://bootstrapmade.com/content/demo/Arsha/assets/img/portfolio/portfolio-portrait-1.webp">
+        </div>
+        <div class="pic1">
+            <img
+                src="https://bootstrapmade.com/content/demo/Arsha/assets/img/portfolio/portfolio-portrait-3.webp">
+        </div>
+    </div>
+
+    <div class="sec7_img1">
+
+        <div class="pic2">
+            <img
+                src="https://bootstrapmade.com/content/demo/Arsha/assets/img/portfolio/portfolio-1.webp">
+        </div>
+        <div class="pic2">
+            <img
+                src="https://bootstrapmade.com/content/demo/Arsha/assets/img/portfolio/portfolio-3.webp">
+        </div>
+        <div class="pic2">
+            <img
+                src="https://bootstrapmade.com/content/demo/Arsha/assets/img/portfolio/portfolio-4.webp">
+        </div>
+        <div class="pic2">
+            <img
+                src="https://bootstrapmade.com/content/demo/Arsha/assets/img/portfolio/portfolio-9.webp">
+        </div>
+
+    </div>
+
+    <div class="sec7_img1">
+
+        <div class="pic2">
+            <img
+                src="https://bootstrapmade.com/content/demo/Arsha/assets/img/portfolio/portfolio-7.webp">
+        </div>
+
+        <div class="pic3">
+            <img
+                src="https://bootstrapmade.com/content/demo/Arsha/assets/img/portfolio/portfolio-portrait-2.webp">
+        </div>
+
+        <div class="pic2">
+            <img
+                src="https://bootstrapmade.com/content/demo/Arsha/assets/img/portfolio/portfolio-8.webp">
+        </div>
+
+    </div>
+
+
+</div>
+
+</div>
+
 
   
 

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <style>
         main {
-            min-height: 100vh;
+            min-height: 40vh;
             background-color: #616163;
         }
 
@@ -20,8 +22,7 @@
         }
 
         .left {
-            width: 50%;
-            /* background-color: antiquewhite; */
+            width: 50%; 
             padding: 60px 40px 0 40px;
         }
 
@@ -30,10 +31,11 @@
             height: auto;
             margin: auto;
             justify-content: center;
-            /* background-color: aquamarine; */
             padding-top: 60px;
+           
         }
-       .left  p{
+
+        .left p {
             text-align: left;
         }
 
@@ -47,12 +49,19 @@
             width: 85%;
             animation: bounce 4s ease-in-out infinite alternate-reverse both;
         }
-        @keyframes bounce{
-   
-   0%,100%{transform: translateY(0px);}
-   50%{transform: translateY(-10px);}
 
-}
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+
+        }
 
         .btns {
             display: flex;
@@ -70,9 +79,107 @@
         .left {
             width: 50%;
         }
-      
 
-.Box {
+
+
+
+        /* @media (min-width:1301px) {
+            .main {
+                background-color: rgb(218, 24, 24) !important;
+            }
+
+            .hero_sec {
+                text-align: center;
+                background-color: palevioletred;
+              
+            }
+
+            .left_inner {
+                background-color: darkcyan;
+            }
+
+            .right {
+                background-color: darkcyan;
+            }
+
+        } */
+
+        /* @media (min-width:1025px) and (max-width:1300px) {
+            .main {
+                background-color: rgb(218, 24, 24) !important;
+            }
+
+            .hero_sec {
+                text-align: center;
+                background-color: peru;
+             
+            }
+
+            .left_inner {
+                background-color: darkcyan;
+            }
+
+            .right {
+                background-color: darkcyan;
+            }
+
+        } */
+
+        /* @media (min-width:769px) and (max-width:1024px) {
+            .main {
+                background-color: rgb(218, 24, 24) !important;
+            }
+
+            .hero_sec {
+                text-align: center;
+                background-color: green;
+               
+            }
+
+            .left_inner {
+                background-color: darkcyan;
+            }
+
+            .right {
+                background-color: darkcyan;
+                
+
+            }
+
+        } */
+          
+
+        @media (max-width:776px) {
+          .hero_sec {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            text-align: center;
+           
+        }
+        .left {
+            width: 100%;
+        }
+          .right {
+            width: 100%;
+          }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .Box {
             background-color: #F5F6F8;
             height: 70px;
             display: flex;
@@ -83,11 +190,13 @@
         .Box img {
             width: 100px;
             animation: bounce 4s ease-in-out infinite alternate-reverse both;
-        }   
-
-
+            transition-duration: 50ms;
+            transform: translate3d(-10px, 0px, 0px);
+            transition-delay: 50ms;
+        }
     </style>
 </head>
+
 <body>
     <main>
 
@@ -123,6 +232,12 @@
             <div><img src="https://bootstrapmade.com/content/demo/Arsha/assets/img/clients/clients-8.webp" alt=""></div>
             <div><img src="https://bootstrapmade.com/content/demo/Arsha/assets/img/clients/clients-8.webp" alt=""></div>
         </div>
-</main>   
+    </main>
+
+
+
+
+    
 </body>
+
 </html>
